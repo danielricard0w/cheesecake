@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-family: "Source Serif 4", serif;
+    font-size: 62,5%;
+}
+
+button {
+    font-family: "Source Serif 4", serif;
+    font-weight: 500;
+    margin-top: 3.2rem;
+    width: 9.4rem;
+    height: 3.2rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: .6rem;
+    border: 0;
+    background-color: #A54328;
+    color: #ffffff;
+}
+
+main {
+    color: #A54328;
+    padding: 5.3rem 3.7rem 9.3rem 3.7rem;
+    max-width: 32rem;
+    margin-inline: auto;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+h1, h2 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    margin-bottom: 3.2rem;
+}
+
+img {
+    margin-block: 3.2rem;
+    width: 100%;
+
+}
+
+p, strong, li {
+    font-size: 1.4rem;
+}
+
+ul, ol {
+    padding-left: 2.4rem;
+}
+
+ul {
+    margin-bottom: 2.4rem;
+}
+ 
+@media (min-width: 1900px) {
+  main {
+    max-width: fit-content;
+    flex-direction: row;
+    gap: 16rem;
+    padding: 9.5rem 14.6rem;
+  }
+}
+
+.recipes {
+    max-width: 43.5rem;
+    max-height: 64.2rem;
+}
+
+.ingredients {
+    max-width: 52.5rem;
+    max-height: 60.7rem;
+}
+
+h1, h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+p, li, strong {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+button {
+    width: 13.3rem;
+    height: 4.5rem;
+    font-size: 1.4rem;
+}
+
+
+
